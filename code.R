@@ -45,5 +45,5 @@ gg <- gg + labs(title = "Number of scientific and technical journal articles per
 scientific and engineering articles published in the following fields: physics, biology, 
 chemistry, mathematics, clinical medicine, biomedical research, engineering
 and technology, and earth and space sciences.")
-ani.options(interval = 2, ani.width = 800, ani.height = 800)
+ani.options(interval = 1, ani.width = 800, ani.height = 800)
 gg_animate(gg, "output2.mp4")
